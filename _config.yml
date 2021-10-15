@@ -1,38 +1,26 @@
-
-# SEO
 title: Swiss Jekyll Theme
 description: A bold typographic theme inspired by Swiss design.
-
-# social
 social_link: twitter
 social_username: broccolini
-github_repo: athena # the GitHub repo name for your project
+github_repo: athena
 github_username: broccolini
 theme_color: black
-
-# Theme
-remote_theme: 'internet-de-france/swiss'
-baseurl: '/queenflixxx'
-
-# Defaults
-
+remote_theme: internet-de-france/swiss
+baseurl: |
+  /mimigwinnett
 defaults:
-  -
-    scope:
-      path: ""
-      type: "pages"
+  - scope:
+      path: ''
+      type: pages
     values:
-      category_name: ""
-  -
-    scope:
-      path: ""
-      type: "posts"
+      category_name: ''
+  - scope:
+      path: ''
+      type: posts
     values:
-      categories: ""
-
-# Stastic UI
-remote_theme_layouts: 
-  - ""
+      categories: ''
+remote_theme_layouts:
+  - ''
   - default
   - page
   - post
@@ -43,7 +31,6 @@ social_links:
   - instagram
   - medium
   - dribbble
-
 theme_colors:
   - black
   - blue
@@ -53,5 +40,3 @@ theme_colors:
   - red
   - white
   - yellow
-
-
